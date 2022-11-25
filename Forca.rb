@@ -49,13 +49,13 @@ def joga(nome)
     avisa_quantos_pontos_ganhou pontos_ate_agota
 end
 
-nome = da_boas_vindas
-palavra_secreta = escolhe_palavra_secreta
+def jogo
+    nome = da_boas_vindas
 
-loop do
-    joga nome
-    if jogar_novamente
-        break
+    loop do
+        joga nome
+        if jogar_novamente
+            break
+        end
+        
     end
-    
-end
